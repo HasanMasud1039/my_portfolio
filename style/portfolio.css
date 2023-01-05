@@ -28,6 +28,7 @@ nav ul{
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat ;
     background-position: bottom right, left; 
+    background-size: contain;
 }
 .btn-primary, .download{
     background-color: #FD6E0A;
@@ -51,8 +52,10 @@ nav ul{
 
 .banner{ 
     align-items: center;
-    margin: 0 200px;
+    margin: 0 0 0 100px;
+    justify-content: space-around;
     display: flex;
+    padding-left: 0%;
 }
 
 .banner-title{
